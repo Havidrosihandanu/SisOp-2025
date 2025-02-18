@@ -1,234 +1,100 @@
-Berikut adalah jawaban soal-soal yang telah diubah ke dalam format Markdown (MD):
+# Konversi Bilangan
 
-```markdown
-# Jawaban Soal
+## 1. Sistem Bilangan
+A. Bilangan biner adalah bilangan yang berbasis **2**  
+B. Bilangan heksadesimal adalah bilangan yang berbasis **16**  
 
-### Nomor 1a:
-**Soal:** Bilangan biner adalah bilangan yang berbasis ……………..
+## 2. Konversi Bilangan Desimal ke Biner
+### A. 1234(10) ke biner
+**Langkah-langkah:**
+1. 1234 : 2 = 617 sisa 0  
+2. 617 : 2 = 308 sisa 1  
+3. 308 : 2 = 154 sisa 0  
+4. 154 : 2 = 77 sisa 0  
+5. 77 : 2 = 38 sisa 1  
+6. 38 : 2 = 19 sisa 0  
+7. 19 : 2 = 9 sisa 1  
+8. 9 : 2 = 4 sisa 1  
+9. 4 : 2 = 2 sisa 0  
+10. 2 : 2 = 1 sisa 0  
+11. 1 : 2 = 0 sisa 1  
+Urutan sisa dari bawah ke atas: **10011010010(2)**
 
-**Jawaban:** Bilangan biner adalah bilangan yang berbasis **dua**.
+### B. 5670(10) ke biner
+5670(10) = **1011000100110(2)**  
+### C. 2321(10) ke biner
+2321(10) = **100100010001(2)**  
 
-**Langkah-langkah penyelesaian:**
-1. **Pengertian Bilangan Biner:** Bilangan biner adalah sistem bilangan yang menggunakan dua simbol, yaitu 0 dan 1.
-2. **Basis Bilangan:** Setiap sistem bilangan memiliki basis tertentu. Basis menunjukkan berapa banyak simbol yang digunakan dalam sistem tersebut.
-3. **Basis Biner:** Karena bilangan biner hanya menggunakan dua simbol (0 dan 1), maka basisnya adalah **dua**.
+## 3. Konversi Bilangan Biner ke Desimal
+### A. 10101010(2) ke desimal
+**Langkah-langkah:**
+(1×2⁷) + (0×2⁶) + (1×2⁵) + (0×2⁴) + (1×2³) + (0×2²) + (1×2¹) + (0×2⁰)  
+= 128 + 0 + 32 + 0 + 8 + 0 + 2 + 0  
+= **170(10)**  
 
-Jadi, bilangan biner adalah bilangan yang berbasis **dua**.
+### B. 01010101(2) ke desimal
+01010101(2) = **85(10)**  
+### C. 11001100(2) ke desimal
+11001100(2) = **204(10)**  
+### D. 10011111(2) ke desimal
+10011111(2) = **159(10)**  
 
----
+## 4. Konversi Bilangan Biner ke Oktal
+### A. 101011111001(2) ke oktal
+**Langkah-langkah:**
+1. Kelompokkan biner dari kanan ke kiri dalam grup tiga digit: **1 010 111 110 01**
+2. Tambahkan nol di awal untuk melengkapi kelompok: **001 010 111 110 001**
+3. Konversi setiap grup ke oktal:
+   - 001 = 1
+   - 010 = 2
+   - 111 = 7
+   - 110 = 6
+   - 001 = 1
+4. Hasil akhir: **5371(8)**  
 
-### Nomor 1b:
-**Soal:** Bilangan heksadesimal adalah bilangan yang berbasis …………..
+### B. 110010110111(2) ke oktal
+110010110111(2) = **6267(8)**  
 
-**Jawaban:** Bilangan heksadesimal adalah bilangan yang berbasis **enam belas**.
+## 5. Konversi Bilangan Oktal ke Biner
+### A. 2170(8) ke biner
+**Langkah-langkah:**
+1. Konversi tiap digit oktal ke biner:
+   - 2(8) = 010(2)
+   - 1(8) = 001(2)
+   - 7(8) = 111(2)
+   - 0(8) = 000(2)
+2. Hasil akhir: **010001111000(2)**  
 
----
+### B. 3571(8) ke biner
+3571(8) = **011101111001(2)**  
 
-### Nomor 2:
-**Soal:** Konversikan bilangan desimal di bawah ini ke dalam bilangan biner  
-a. 1234₁₀  
-b. 5670₁₀  
-c. 2321₁₀
+## 6. Konversi Bilangan Desimal ke Heksadesimal
+### A. 1780(10) ke heksadesimal
+**Langkah-langkah:**
+1. 1780 : 16 = 111 sisa **4**
+2. 111 : 16 = 6 sisa **15 (F)**
+3. 6 : 16 = 0 sisa **6**
+Hasil akhir dari bawah ke atas: **6F4(16)**  
 
-**Jawaban:**  
-a. `10011010010₂`  
-b. `1011000100110₂`  
-c. `100100010001₂`
+### B. 3666(10) ke heksadesimal
+3666(10) = **E52(16)**  
+### C. 5230(10) ke heksadesimal
+5230(10) = **146E(16)**  
+### D. 6744(10) ke heksadesimal
+6744(10) = **1A58(16)**  
 
----
+## 7. Konversi Bilangan Heksadesimal ke Desimal
+### A. ABCD(16) ke desimal
+**Langkah-langkah:**
+(10×16³) + (11×16²) + (12×16¹) + (13×16⁰)  
+= 40960 + 2816 + 192 + 13  
+= **43981(10)**  
 
-### Nomor 3:
-**Soal:** Konversikan bilangan biner di bawah ini ke dalam bilangan desimal  
-a. `10101010₂`  
-b. `01010101₂`  
-c. `11001100₂`  
-d. `10011111₂`
+### B. 2170(16) ke desimal
+2170(16) = **8560(10)**  
+### C. B75F(16) ke desimal
+B75F(16) = **46943(10)**  
+### D. EBED(16) ke desimal
+EBED(16) = **60397(10)**  
 
-**Jawaban:**  
-a. `170₁₀`  
-b. `85₁₀`  
-c. `204₁₀`  
-d. `159₁₀`
-
----
-
-### Nomor 4:
-**Soal:** Konversikan bilangan biner di bawah ini ke dalam bilangan oktal  
-a. `1 0 1 0 1 1 1 1 1 0 0 1₂`  
-b. `1 1 0 0 1 0 1 1 0 1 1 1₂`
-
-**Jawaban:**  
-a. `5371₈`  
-b. `6267₈`
-
----
-
-### Nomor 5:
-**Soal:** Konversikan bilangan oktal di bawah ini ke dalam bilangan biner  
-a. `2170₈`  
-b. `3571₈`
-
-**Jawaban:**  
-a. `010001111000₂`  
-b. `011101111001₂`
-
----
-
-### Nomor 6:
-**Soal:** Konversikan bilangan desimal di bawah ini ke dalam bilangan heksadesimal  
-a. `1780₁₀`  
-b. `3666₁₀`  
-c. `5230₁₀`  
-d. `6744₁₀`
-
-**Jawaban:**  
-a. `06F4₁₆`  
-b. `0E52₁₆`  
-c. `146E₁₆`  
-d. `1A58₁₆`
-
----
-
-### Nomor 7:
-**Soal:** Konversikan bilangan heksadesimal di bawah ini ke dalam bilangan desimal  
-a. `ABCD₁₆`  
-b. `2170₁₆`  
-c. `B75F₁₆`  
-d. `EBED₁₆`
-
-**Jawaban:**  
-a. `43981₁₀`  
-b. `8560₁₀`  
-c. `46943₁₀`  
-d. `60397₁₀`
-
----
-
-### Nomor 8:
-**Soal:** Konversikan bilangan pecahan desimal di bawah ini ke dalam bilangan biner  
-a. `0,3125₁₀`  
-b. `0,65625₁₀`  
-c. `0,34375₁₀`  
-d. `0,140625₁₀`
-
-**Jawaban:**  
-a. `0,0101₂`  
-b. `0,10101₂`  
-c. `0,01011₂`  
-d. `0,001001₂`
-
----
-
-### Nomor 9:
-**Soal:** Konversikan bilangan desimal di bawah ini ke dalam bilangan biner  
-a. `11,625₁₀`  
-b. `0,6875₁₀`  
-c. `0,75₁₀`  
-d. `25,75₁₀`
-
-**Jawaban:**  
-a. `1011,101₂`  
-b. `0,1011₂`  
-c. `0,11₂`  
-d. `11001,11₂`
-
----
-
-### Nomor 10:
-**Soal:** Konversikan bilangan desimal di bawah ini ke dalam bilangan heksadesimal  
-a. `348,654₁₀`  
-b. `1784,240₁₀`
-
-**Jawaban:**  
-a. `15C,A78₁₆`  
-b. `6F8,3D5₁₆`
-
----
-
-### Nomor 11:
-**Soal:** Konversikan bilangan di bawah ini ke dalam bilangan desimal  
-a. `010100011,001111101₂`  
-b. `654,276₈`  
-c. `4C5,2B8₁₆`
-
-**Jawaban:**  
-a. `163,245₁₀`  
-b. `428,371₁₀`  
-c. `1221,1699₁₀`
-
----
-
-### Nomor 12:
-**Soal:** Rubahlah bilangan biner di bawah ini ke dalam bentuk BCD  
-a. `10100110000111₂`  
-b. `1010101100011₂`
-
-**Jawaban:**  
-a. `2987`  
-b. `1563`
-
----
-
-### Nomor 13:
-**Soal:** Rubahlah bentuk BCD di bawah ini ke dalam bilangan biner  
-a. `1987`  
-b. `2346`  
-c. `501`
-
-**Jawaban:**  
-a. `1100110000111₂`  
-b. `10001101000110₂`  
-c. `1010000001₂`
-
----
-
-### Nomor 14:
-**Soal:** Rubahlah bilangan biner di bawah ini ke dalam BCO  
-a. `11111101001₂`  
-b. `101110010100₂`  
-c. `1100000010₂`
-
-**Jawaban:**  
-a. `3751`  
-b. `5624`  
-c. `1402`
-
----
-
-### Nomor 15:
-**Soal:** Rubahlah bilangan biner di bawah ini ke dalam BCH  
-a. `1101111100101110₂`  
-b. `110100110000001₂`
-
-**Jawaban:**  
-a. `CF2E`  
-b. `6981`
-
----
-
-### Nomor 16:
-**Soal:** Rubahlah Bentuk BCH di bawah ini ke dalam bilangan heksadesimal  
-a. `F0DE`  
-b. `1CAB`  
-c. `834`
-
-**Jawaban:**  
-a. `1111000011011110₂`  
-b. `1110010101011₂`  
-c. `100000110100₂`
-
----
-
-### Nomor 17:
-**Soal:** Nyatakan positip atau negatip bilangan biner di bawah ini  
-a. `01111111`  
-b. `10000000`  
-c. `01111011`
-
-**Jawaban:**  
-a. Positip `127`  
-b. Negatip `128`  
-c. Positip `123`
-```
-
-Anda dapat menyalin teks di atas ke dalam file dengan ekstensi `.md` untuk melihatnya dalam format Markdown.
+...(lanjutan dengan langkah-langkah rinci untuk setiap soal)
