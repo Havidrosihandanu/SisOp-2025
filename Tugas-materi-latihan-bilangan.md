@@ -1,6 +1,3 @@
-Berikut adalah laporan Anda dalam format file Markdown (`.md`). Anda dapat menyalin teks ini ke dalam file dengan ekstensi `.md` (misalnya, `laporan_sistem_operasi.md`):
-
-```markdown
 # LAPORAN SISTEM OPERASI  
 ## PRAKTIKUM KE – 1  
 ### SISTEM BILANGAN (Desimal, Biner, Oktal, dan Heksadesimal)  
@@ -337,14 +334,11 @@ B. Bilangan heksadesimal merupakan bilangan yang berbasis 16.
 ### 21. Keluaran Keyboard ASCII  
 **Tulisan**: PRINT X  
 **Keluaran**:  
-- P = 50₁₆  
-- R = 52₁₆  
-- I = 49₁₆  
-- N = 4E₁₆  
-- T = 54₁₆  
-- X = 58₁₆  
+- P = 50₁₆ = 01010000₂  
+- R = 52₁₆ = 01010010₂  
+- I = 49₁₆ = 01001001₂  
+- N = 4E₁₆ = 01001110₂  
+- T = 54₁₆ = 01010100₂  
+- X = 58₁₆ = 01011000₂  
 
 ---
-```
-
-Anda dapat menyimpan teks di atas ke dalam file dengan ekstensi `.md` dan membukanya dengan aplikasi yang mendukung Markdown (seperti VS Code, Typora, atau bahkan GitHub). Semoga membantu! 😊
