@@ -20,8 +20,7 @@
 
 ## 1. Hasil iops64 (Integer Operations Per Second)
 
-- **Total IOPS (4 Core):** 6.05 miliar operasi integer/detik → Kinerja paralel CPU saat menangani tugas komputasi integer (misal: database, enkripsi).
-- **Single-Core IOPS:** 1.53 miliar operasi/detik → Kecepatan satu core saat bekerja sendiri.
+![alt text](https://github.com/Havidrosihandanu/SisOp-2025/blob/main/week-5/iops.png?raw=true)
 
 ### Analisa:
 - CPU memiliki skalabilitas baik (**total IOPS ≈ 4× single-core**), menunjukkan efisiensi multithreading.
@@ -29,8 +28,7 @@
 
 ## 2. Hasil flops64 (Floating-Point Operations Per Second)
 
-- **Total FLOPS (4 Core):** 5.78 miliar operasi floating-point/detik → Kinerja CPU dalam tugas saintifik (AI, simulasi fisika).
-- **Single-Core FLOPS:** 1.46 miliar operasi/detik → Kecepatan satu core untuk kalkulus numerik.
+![alt text](https://github.com/Havidrosihandanu/SisOp-2025/blob/main/week-5/flops.png?raw=true)
 
 ### Analisa:
 - Floating-point umumnya lebih lambat daripada integer (**perbandingan: 5.78 Gigaflops vs 6.05 Gigaiops**).
