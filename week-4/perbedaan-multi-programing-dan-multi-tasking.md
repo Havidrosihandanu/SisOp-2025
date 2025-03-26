@@ -1,0 +1,3 @@
+# Perbedaan Multiprogramming dan Multitasking
+- Multiprogramming adalah Teknik komputasi yang memungkinkan beberapa program dimuat dan dijalankan secara bersamaan ke dalam memori computer, yang memungkinkan CPU untuk beralih secara cepat , hal ini mengoptiomalkan penggunaan CPU dengan membuatnya tetap telibat dalam pelaksanaan tugas .
+- Multitasking adalah eksekusi bersamaan dari beberapa tugas selama periode tertentu untuk meningkatkan responsivitas dan efisiensi pengguna.

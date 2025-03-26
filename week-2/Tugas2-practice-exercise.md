@@ -1,9 +1,12 @@
 # PRACTICE EXERCISE
+### SISTEM BILANGAN (Desimal, Biner, Oktal, dan Heksadesimal)  
 
-## Nama : Havid Rosihandanu
-## NRP : 3124500048
-## KELAS : D3 IT B
-## 1.1 What are the three main purposes of an operating system?
+**Nama**: Havid Rosihandanu  
+**NRP**: 3124500048  
+**Dosen Pengajar**: Dr. Ferry Astika Saputra ST, M.Sc  
+**Program Studi**: D3 Teknik Informatika  
+**Institusi**: Politeknik Elektronika Negeri Surabaya (PENS)  
+**Tahun**: 2024  
 
 a) **Resource Management**: Efficiently managing hardware resources.  
 b) **Providing a User Interface**: Enabling user interaction with the system.  

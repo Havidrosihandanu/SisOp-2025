@@ -1,5 +1,5 @@
-# LAPORAN SISTEM OPERASI  
-## PRAKTIKUM KE – 1  
+# SISTEM OPERASI  
+## KE – 1  
 ### SISTEM BILANGAN (Desimal, Biner, Oktal, dan Heksadesimal)  
 
 **Nama**: Havid Rosihandanu  
