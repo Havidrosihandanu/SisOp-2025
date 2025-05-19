@@ -84,10 +84,9 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 ![Gantt chart](sjf-without-arrival-time.png)
 
 ## Table SJF without arrival time
-______________________
 | proses | burst time |
-|  P1    |     6      |
-|  P2    |     8      |
-|  P3    |     7      |
-|  P4    |     3      |
-_______________________
+| :----- | :---------: |
+| P1     | 6           |
+| P2     | 8           |
+| P3     | 7           |
+| P4     | 3           |
