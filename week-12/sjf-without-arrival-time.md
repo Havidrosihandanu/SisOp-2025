@@ -1,8 +1,7 @@
-# Penjelasan Kode SJF Scheduling dengan Analogi
+# Penjelasan Kode SJF Scheduling Withot Arrival time
 
-## Struktur Kode Program
-
-### 1. Definisi Struct `proc`
+## HAVID ROSIHANDANU 
+## 3124500048
 
 ```c
 struct proc {
@@ -77,17 +76,16 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 ```
 > Code diats digunakan untuk Menampilkan hasil perhitungan dan rata-rata TAT/WT.
 
-## hasil eksekusi
-![Hasil ekseskusi](hasil.png)
+## hasil Compile
+![Hasil compile](hasil.png)
 
 ## Gantt Chart
 ![Gantt chart](sjf-without-arrival-time.png)
 
 ## Table SJF without arrival time
-______________________
 | proses | burst time |
-|  P1    |     6      |
-|  P2    |     8      |
-|  P3    |     7      |
-|  P4    |     3      |
-_______________________
+| :----- | :---------: |
+| P1     | 6           |
+| P2     | 8           |
+| P3     | 7           |
+| P4     | 3           |
