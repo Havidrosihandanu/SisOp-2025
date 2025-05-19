@@ -26,9 +26,9 @@ struct proc read(int i) {
 ```c
 struct proc p[10], tmp;
 float avgtat = 0, avgwt = 0;
-int n, ct = 0;`
-> Code diatas Deklarasi variabel untuk menyimpan data proses, waktu penyelesaian (ct), dan rata-rata TAT/WT.
+int n, ct = 0;
 ```
+> Code diatas Deklarasi variabel untuk menyimpan data proses, waktu penyelesaian (ct), dan rata-rata TAT/WT.
 
 ```c
 printf("<--SJF Scheduling Algorithm Without Arrival Time (Non-Preemptive)-->\n");
@@ -41,7 +41,7 @@ scanf("%d", &n);
 for(int i = 0; i < n; i++)
     p[i] = read(i + 1);
 ```
-> Code diatas merupakan looping untuk mengisi burst time setiap proses    
+> Code diatas merupakan looping yang berfungsi untuk mengisi burst time setiap proses    
 
 ```c
 for(int i = 0; i < n - 1; i++)
@@ -90,3 +90,6 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 | P2     | 8           |
 | P3     | 7           |
 | P4     | 3           |
+
+## Kesimpulan 
+> SJF merupakan algoritma penjadwalan CPU, algoritma ini menjalankan proses dengan burst time yang kecil ke yang besar. Dengan mengerjakan proses yang paling pendek terlebih dahulu diharapkan dapat efisien, tetapi proses yang memiliki burst time lama harus menunggu waktu lama.
