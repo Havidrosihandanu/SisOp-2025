@@ -1,4 +1,4 @@
-# Penjelasan Kode SJF dengan Arrival Time 
+# PENJELASAN SJF PREEMTIVE WITH ARRIVAL TIME
 
 ## HAVID ROSIHANDANU 
 ## 3124500048
@@ -36,13 +36,13 @@ printf("<--SJF Scheduling Algorithm (Non-Preemptive)-->\n");
 printf("Enter Number of Processes: ");
 scanf("%d", &n);
 ```
-> Code diatas digunakan untuk menampung input dari user
+> Code diatas digunakan untuk menampung input dari user dan menyimpannya pada variable n 
 
 ```c
 for(int i = 0; i < n; i++)
     p[i] = read(i + 1);
 ```
-> Code diatas Loop untuk mengisi data semua proses menggunakan fungsi read().
+> Code diatas merupakan Looping untuk mengisi data semua proses menggunakan fungsi read().
 
 ```c
 for(int i = 0; i < n - 1; i++)
@@ -53,7 +53,7 @@ for(int i = 0; i < n - 1; i++)
             p[j + 1] = temp;
         }   
 ```
-> Code diatas Mengurutkan proses berdasarkan Arrival Time terkecil ke terbesar (FIFO untuk proses yang tiba bersamaan).
+> Code diatas digunakan untuk Mengurutkan proses berdasarkan Arrival Time terkecil ke terbesar 
 
 ```c
 for(j = 1; j < n && p[j].at == p[0].at; j++)
@@ -119,16 +119,23 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 > Code diatas digunakan untuk Menampilkan rata-rata TAT dan WT.
 
 
-## Hasil Compile
-![Hasil compile](hasil-arrival.png)
+## HASIL COMPILE
+![Hasil compile](assets/hasil-arrival.png)
 
-## Gantt Chart
-![Gantt chart](sjf-with-arrival-time.md)
+## GANTT CHART
+![Gantt chart](assets/sjf-arrival-time.png)
 
-## Table SJF
+## TABLE SJF NON PREEMTIVE WITH ARRIVAL TIME
 | proses |arrival time | burst time  |
 | :----- | :---------: | :---------: |
 | P1     | 0           |8            |
 | P2     | 1           |4            |
 | P3     | 2           |9            |
 | P4     | 3           |5            |
+
+## KESIMPULAN 
+> SJF non preemtive with arrival time merupakan algoritma penjadwalan cpu yang memiliki mekasnisme sebagai berikut : 
+1. Mencari proses yang telah tiba (arrival time-nya kurang dari atau sama dengan waktu saat ini).
+2. Dari proses-proses yang telah tiba dan belum selesai dieksekusi, memilih proses dengan burst time terkecil untuk dieksekusi selanjutnya.
+3. Mengeksekusi proses yang terpilih hingga selesai (karena ini adalah versi non-preemptive).
+4. Setelah proses selesai, waktu saat ini akan maju, dan langkah 1-3 akan diulang sampai semua proses selesai.

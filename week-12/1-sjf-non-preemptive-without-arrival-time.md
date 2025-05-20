@@ -1,4 +1,4 @@
-# Penjelasan Kode SJF Scheduling Withot Arrival time
+# PENJELASAN SJF NON PREEMTIVE WITHOUT ARRIVAL TIME
 
 ## HAVID ROSIHANDANU 
 ## 3124500048
@@ -25,9 +25,9 @@ struct proc read(int i) {
 ```c
 struct proc p[10], tmp;
 float avgtat = 0, avgwt = 0;
-int n, ct = 0;`
-> Code diatas Deklarasi variabel untuk menyimpan data proses, waktu penyelesaian (ct), dan rata-rata TAT/WT.
+int n, ct = 0;
 ```
+> Code diatas Deklarasi variabel untuk menyimpan data proses, waktu penyelesaian (ct), dan rata-rata TAT/WT.
 
 ```c
 printf("<--SJF Scheduling Algorithm Without Arrival Time (Non-Preemptive)-->\n");
@@ -40,7 +40,7 @@ scanf("%d", &n);
 for(int i = 0; i < n; i++)
     p[i] = read(i + 1);
 ```
-> Code diatas merupakan looping untuk mengisi burst time setiap proses    
+> Code diatas merupakan looping yang berfungsi untuk mengisi burst time setiap proses    
 
 ```c
 for(int i = 0; i < n - 1; i++)
@@ -62,9 +62,10 @@ for(int i = 0; i < n; i++) {
     avgwt += p[i].wt;
 }
 ```
->Completion Time (CT): Waktu penyelesaian proses diakumulasi.
-Turnaround Time (TAT): TAT = CT (karena arrival time = 0).
-Waiting Time (WT): WT = TAT - Burst Time.
+> Code diatas digunakan untuk menghitung
+* Completion Time (CT): Waktu penyelesaian proses diakumulasi.
+* Turnaround Time (TAT): TAT = CT (karena arrival time = 0).
+* Waiting Time (WT): WT = TAT - Burst Time.
 
 ```c
 printf("\nProcessNo\tBT\tCT\tTAT\tWT\tRT\n");
@@ -76,16 +77,20 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 ```
 > Code diats digunakan untuk Menampilkan hasil perhitungan dan rata-rata TAT/WT.
 
-## hasil Compile
-![Hasil compile](hasil.png)
+## HASIL COMPILE
+![Hasil compile](assets/hasil.png)
 
-## Gantt Chart
-![Gantt chart](sjf-without-arrival-time.png)
+## GANT CHART
+![Gantt chart](assets/sjf-without-arrival-time.png)
 
-## Table SJF without arrival time
-| proses | burst time |
+## TABLE SJF NON PREEMTIVE WITHOUT ARRIVAL TIME
+| proses | burst time  |
 | :----- | :---------: |
 | P1     | 6           |
 | P2     | 8           |
 | P3     | 7           |
 | P4     | 3           |
+
+## KESIMPULAN
+> SJF without arrival time non preemtive merupakan algoritma penjadwalan CPU yang menjalankan proses dengan burst time yang paling kecil ke yang besar.tanpa menghiraukan arrival time. Dengan mengerjakan proses yang paling pendek terlebih dahulu diharapkan dapat efisien, tetapi hal tersebut tidak benar karena penjadwalan cpu efisien pada proses yang memiliki burst time kecil, untuk proses yang memiliki burst besar harusm menunggu waktu hingga proses di bawahya selesai dikerjakan semua.
+
