@@ -102,7 +102,7 @@ printf("\nAverage TurnAroundTime=%f\nAverage WaitingTime=%f", avgtat, avgwt);
 > Code diatas digunakan untuk menghitung dan menampilkan rata-rata TAT dan WT
 
 ## HASIL COMPILE
-![Hasil compile](asset/hasil-srtf.png)
+![Hasil compile](assets/hasil-srtf.png)
 
 ## GANTT CHART
 ![Gantt chart](assets/srtf.png)
