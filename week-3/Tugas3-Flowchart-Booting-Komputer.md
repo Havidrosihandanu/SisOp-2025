@@ -8,5 +8,4 @@
 **Program Studi**: D3 Teknik Informatika  
 **Institusi**: Politeknik Elektronika Negeri Surabaya (PENS)  
 **Tahun**: 2024  
-
-![alt text]https://github.com/Havidrosihandanu/SisOp-2025/blob/main/week-3/flowchart-booting-computer.jpg?raw=true)
+![Flowchart Booting](https://github.com/Havidrosihandanu/SisOp-2025/raw/main/week-3/flowchart-booting-computer.jpg)
