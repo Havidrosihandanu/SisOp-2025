@@ -1,6 +1,6 @@
 # SISTEM OPERASI  
-## KE – 1  
-### SISTEM BILANGAN (Desimal, Biner, Oktal, dan Heksadesimal)  
+## KE – 3
+### FLOWCHART BOOTING KOMPUTER
 
 **Nama**: Havid Rosihandanu  
 **NRP**: 3124500048  
@@ -9,4 +9,4 @@
 **Institusi**: Politeknik Elektronika Negeri Surabaya (PENS)  
 **Tahun**: 2024  
 
-![alt text](https://github.com/Havidrosihandanu/SisOp-2025/blob/main/flowchart-booting-computer.jpg?raw=true)
+![alt text]https://github.com/Havidrosihandanu/SisOp-2025/blob/main/week-3/flowchart-booting-computer.jpg?raw=true)
